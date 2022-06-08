@@ -435,7 +435,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 205990269}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99fb521d331e53146bd2a3abce131759, type: 3}
+  m_Script: {fileID: 11500000, guid: 2bca56d9d99f6724aaf6aa36a43335d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   imgGaze: {fileID: 510651603}
@@ -450,7 +450,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: mode
+          m_StringArgument: start page
           m_BoolArgument: 0
         m_CallState: 2
   totalTime: 1.5
@@ -1331,7 +1331,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 569438360}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99fb521d331e53146bd2a3abce131759, type: 3}
+  m_Script: {fileID: 11500000, guid: 2bca56d9d99f6724aaf6aa36a43335d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   imgGaze: {fileID: 510651603}
@@ -1346,7 +1346,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: tutorial
+          m_StringArgument: start page
           m_BoolArgument: 0
         m_CallState: 2
   totalTime: 1.5
@@ -2328,7 +2328,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1338885775}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1cc9e10ecc89cbd45941f96812e1a870, type: 3}
+  m_Script: {fileID: 11500000, guid: fb613494fa660654385f1c83f58f34ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1338885777
@@ -3116,7 +3116,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1837205784}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99fb521d331e53146bd2a3abce131759, type: 3}
+  m_Script: {fileID: 11500000, guid: 2bca56d9d99f6724aaf6aa36a43335d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   imgGaze: {fileID: 510651603}
@@ -3131,7 +3131,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: mode
+          m_StringArgument: start page
           m_BoolArgument: 0
         m_CallState: 2
   totalTime: 1.5
@@ -3400,7 +3400,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1935254051}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99fb521d331e53146bd2a3abce131759, type: 3}
+  m_Script: {fileID: 11500000, guid: 2bca56d9d99f6724aaf6aa36a43335d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   imgGaze: {fileID: 510651603}
@@ -3415,7 +3415,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: tutorial
+          m_StringArgument: start page
           m_BoolArgument: 0
         m_CallState: 2
   totalTime: 1.5

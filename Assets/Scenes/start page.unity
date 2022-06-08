@@ -485,7 +485,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -250}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 160, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &569438362
 MonoBehaviour:
@@ -539,7 +539,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 569438360}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99fb521d331e53146bd2a3abce131759, type: 3}
+  m_Script: {fileID: 11500000, guid: 2bca56d9d99f6724aaf6aa36a43335d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   imgGaze: {fileID: 510651603}
@@ -554,7 +554,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: tutorial
+          m_StringArgument: start page
           m_BoolArgument: 0
         m_CallState: 2
   totalTime: 1.5
@@ -1063,7 +1063,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 9b574434f73c46a4eb333235dd556599,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.77
+      value: 1.1
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9b574434f73c46a4eb333235dd556599,
         type: 3}
@@ -1219,7 +1219,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1338885775}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1cc9e10ecc89cbd45941f96812e1a870, type: 3}
+  m_Script: {fileID: 11500000, guid: fb613494fa660654385f1c83f58f34ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1338885777
@@ -1694,8 +1694,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -440}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 0, y: -492}
+  m_SizeDelta: {x: 160, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1837205786
 MonoBehaviour:
@@ -1829,7 +1829,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1837205784}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99fb521d331e53146bd2a3abce131759, type: 3}
+  m_Script: {fileID: 11500000, guid: 2bca56d9d99f6724aaf6aa36a43335d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   imgGaze: {fileID: 510651603}
@@ -1844,7 +1844,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: selmode
+          m_StringArgument: start page
           m_BoolArgument: 0
         m_CallState: 2
   totalTime: 1.5
@@ -1987,7 +1987,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2052565852}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1cc9e10ecc89cbd45941f96812e1a870, type: 3}
+  m_Script: {fileID: 11500000, guid: fb613494fa660654385f1c83f58f34ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &2052565854
@@ -2029,7 +2029,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2114540495}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 56.6, z: -141.3}
+  m_LocalPosition: {x: 0, y: 56.6, z: -122.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1556215527}
@@ -2045,6 +2045,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 2114540495}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19711e2d74200084da2e4a3063147a2f, type: 3}
+  m_Script: {fileID: 11500000, guid: 7b1f7d3d58956304198935450665828e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
