@@ -1,10 +1,12 @@
-﻿using System.Collections;
+﻿/*
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class HeartGaze : MonoBehaviour
 {
+    
     public Image imgGaze;
 
     public float totalTime;
@@ -47,4 +49,6 @@ public class HeartGaze : MonoBehaviour
         cat.transform.localScale = originScale;
 
     }
+    
 }
+*/
