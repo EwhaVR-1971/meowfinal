@@ -10,7 +10,7 @@ public class GVRButton : MonoBehaviour
     public GameObject cat1;
     //public GameObject cat3;
     public UnityEvent GVRClick;
-    public float totalTime = 2;
+    public float totalTime;
     bool gvrStatus;
     public float gvrTimer;
 
