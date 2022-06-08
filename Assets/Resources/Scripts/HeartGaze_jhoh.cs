@@ -12,6 +12,7 @@ public class HeartGaze : MonoBehaviour
     float gvrTimer;
     public GameObject cat;
     public Vector3 originScale;
+
     // Start is called before the first frame update
     void Start()
     {
