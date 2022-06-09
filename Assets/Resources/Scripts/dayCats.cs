@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class dayCats : MonoBehaviour
 {
     public float timer;
@@ -89,5 +90,6 @@ public class dayCats : MonoBehaviour
             cat8.SetActive(false);
             cat9.SetActive(true);
         }
+   
     }
 }
