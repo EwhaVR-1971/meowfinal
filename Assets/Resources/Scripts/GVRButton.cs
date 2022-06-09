@@ -7,12 +7,15 @@ using UnityEngine.Events;
 public class GVRButton : MonoBehaviour
 {
     // public Image imgCircle;
-    public GameObject cat1;
+    public GameObject obj;
     //public GameObject cat3;
     public UnityEvent GVRClick;
     public float totalTime;
     bool gvrStatus;
     public float gvrTimer;
+    // public float totalScore = 0;
+    // bool isDone = false;
+
 
     // Start is called before the first frame update
     void Start()
@@ -25,11 +28,11 @@ public class GVRButton : MonoBehaviour
     {
          if(gvrStatus)
         {
-            gvrTimer += Time.deltaTime;
+            gvrTimer = gvrTimer + Time.deltaTime;
             // imgCircle.fillAmount = gvrTimer / totalTime;
         }
 
-        if(gvrTimer>totalTime)
+        if(gvrTimer + 0.7>totalTime)
         {
             GVRClick.Invoke();
             // cat.SetActive(false);
@@ -50,6 +53,8 @@ public class GVRButton : MonoBehaviour
     
     public void hit()
     {
-        cat1.SetActive(false);
+        // obj.SetActive(false);
+        // totalScore += 1;
+        Debug.Log("hit");
     }
 }
