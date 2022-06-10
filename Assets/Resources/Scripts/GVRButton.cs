@@ -8,24 +8,25 @@ using UnityEngine.SceneManagement;
 public class GVRButton : MonoBehaviour
 {
     // public Image imgCircle;
+    public GameObject obj;
+    private GameManager manager;
     public GameObject cat1;
     public GameObject water;
     public GameObject paw;
     public GameObject food;
     public GameObject rotten;
     public GameObject choco;
-
-    //public GameObject cat3;
     public UnityEvent GVRClick;
     public float totalTime;
     bool gvrStatus;
     public float gvrTimer;
-    public float totalScore=0;
+    // public int totalScore;  // 점수 합산
+    public int isDone = 0;
 
     // Start is called before the first frame update
     void Start()
     {
-       
+        manager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
     // Update is called once per frame
@@ -33,14 +34,15 @@ public class GVRButton : MonoBehaviour
     {
          if(gvrStatus)
         {
-            gvrTimer += Time.deltaTime;
+            gvrTimer = gvrTimer + Time.deltaTime;
             // imgCircle.fillAmount = gvrTimer / totalTime;
         }
 
-        if(gvrTimer>totalTime)
+        if(gvrTimer + 0.7>totalTime)
         {
             GVRClick.Invoke();
             // cat.SetActive(false);
+            isDone += 1;
         }
     }
 
@@ -64,9 +66,10 @@ public class GVRButton : MonoBehaviour
 
     public void hit()
     {
-        cat1.SetActive(false);
-
-        totalScore += 5;
-     
+        if (isDone == 1)
+        {
+            manager.totalScore += 1;
+            Debug.Log(manager.totalScore);
+        }
     }
 }
