@@ -12,6 +12,8 @@ public class Gaze : MonoBehaviour
     public float totalTime;
     float gvrTimer;
     bool gvrStatus;
+    float speed = 0.01f;
+    Vector3 target = new Vector3(-0.12f, 0.28f, -12.42f);
 
     void Start()
     {
@@ -21,9 +23,13 @@ public class Gaze : MonoBehaviour
 
     void Update()
     {
+        instance.transform.position = Vector3.MoveTowards(instance.transform.position, target, 0.03f);
+        if (instance.transform.position == target){
+            Destroy(instance);
+        }
         if (gvrStatus)
         {
-            instance.transform.localScale = originScale * (1+gvrTimer);
+            instance.transform.localScale = originScale*(1+gvrTimer*speed);
             gvrTimer += Time.deltaTime;
             if(gvrTimer > totalTime){
 

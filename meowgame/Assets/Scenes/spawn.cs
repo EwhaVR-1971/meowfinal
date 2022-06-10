@@ -9,7 +9,7 @@ public class spawn : MonoBehaviour
     public int count;     
     float currTime;
     private List<GameObject> gameObject = new List<GameObject>();
-    Vector3 target = new Vector3(-0.12f, 0.28f, -4.34f);
+
 
     void Start(){
        
@@ -21,7 +21,6 @@ public class spawn : MonoBehaviour
             for(int i = 0; i < count; ++i)
             {
                 Spawn();
-                Move();
             }     
             currTime = 0;
         }
@@ -54,8 +53,5 @@ public class spawn : MonoBehaviour
         gameObject.Add(instance);
         
     }
-    
-    private void Move(){
-        transform.position = Vector3.MoveTowards(transform.position, target, 1);
-    }
+
 }
