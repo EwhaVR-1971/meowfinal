@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class dayCats : MonoBehaviour
 {
     public float timer;
@@ -137,5 +138,6 @@ public class dayCats : MonoBehaviour
             cat9.SetActive(false);
             Button9.SetActive(false);
         }
+   
     }
 }

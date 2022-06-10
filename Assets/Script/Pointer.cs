@@ -1,12 +1,11 @@
-﻿
-/*using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class Pointer : MonoBehaviour
 {
-    
+
     private float size = 2f;
     public float speed;
     public float time;
@@ -41,6 +40,4 @@ public class Pointer : MonoBehaviour
     {
         gameObject.transform.localScale = originScale;
     }
-    
 }
-*/
