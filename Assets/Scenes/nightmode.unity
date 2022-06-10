@@ -2050,6 +2050,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8b81a0577c8774418b435961c63e294, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  obj: {fileID: 0}
   GVRClick:
     m_PersistentCalls:
       m_Calls:
@@ -2066,7 +2067,7 @@ MonoBehaviour:
         m_CallState: 2
   totalTime: 5
   gvrTimer: 0
-  totalScore: 0
+  isDone: 0
 --- !u!114 &210735878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4989,6 +4990,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8b81a0577c8774418b435961c63e294, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  obj: {fileID: 0}
   GVRClick:
     m_PersistentCalls:
       m_Calls:
@@ -5005,7 +5007,7 @@ MonoBehaviour:
         m_CallState: 2
   totalTime: 2
   gvrTimer: 0
-  totalScore: 0
+  isDone: 0
 --- !u!1001 &572974795
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5376,6 +5378,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8b81a0577c8774418b435961c63e294, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  obj: {fileID: 0}
   GVRClick:
     m_PersistentCalls:
       m_Calls:
@@ -5392,7 +5395,7 @@ MonoBehaviour:
         m_CallState: 2
   totalTime: 2
   gvrTimer: 0
-  totalScore: 0
+  isDone: 0
 --- !u!114 &591443312
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8620,6 +8623,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8b81a0577c8774418b435961c63e294, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  obj: {fileID: 0}
   GVRClick:
     m_PersistentCalls:
       m_Calls:
@@ -8636,7 +8640,7 @@ MonoBehaviour:
         m_CallState: 2
   totalTime: 3
   gvrTimer: 0
-  totalScore: 0
+  isDone: 0
 --- !u!114 &987745079
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9442,6 +9446,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8b81a0577c8774418b435961c63e294, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  obj: {fileID: 0}
   GVRClick:
     m_PersistentCalls:
       m_Calls:
@@ -9458,7 +9463,7 @@ MonoBehaviour:
         m_CallState: 2
   totalTime: 5
   gvrTimer: 0
-  totalScore: 0
+  isDone: 0
 --- !u!114 &1076312338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9762,6 +9767,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8b81a0577c8774418b435961c63e294, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  obj: {fileID: 0}
   GVRClick:
     m_PersistentCalls:
       m_Calls:
@@ -9778,7 +9784,7 @@ MonoBehaviour:
         m_CallState: 2
   totalTime: 3
   gvrTimer: 0
-  totalScore: 0
+  isDone: 0
 --- !u!114 &1094339626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10406,6 +10412,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8b81a0577c8774418b435961c63e294, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  obj: {fileID: 0}
   GVRClick:
     m_PersistentCalls:
       m_Calls:
@@ -10422,7 +10429,7 @@ MonoBehaviour:
         m_CallState: 2
   totalTime: 2
   gvrTimer: 0
-  totalScore: 0
+  isDone: 0
 --- !u!114 &1151598827
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11036,6 +11043,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8b81a0577c8774418b435961c63e294, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  obj: {fileID: 0}
   GVRClick:
     m_PersistentCalls:
       m_Calls:
@@ -11052,7 +11060,7 @@ MonoBehaviour:
         m_CallState: 2
   totalTime: 2
   gvrTimer: 0
-  totalScore: 0
+  isDone: 0
 --- !u!114 &1200514186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11408,6 +11416,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1701672641}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1244368452
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1244368454}
+  - component: {fileID: 1244368453}
+  m_Layer: 0
+  m_Name: manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1244368453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244368452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e769629f4bfb574f81f1b9a303f1c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  totalScore: 0
+--- !u!4 &1244368454
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244368452}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.4556719, y: 0.98115826, z: 127.433334}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1248556443
 GameObject:
@@ -12228,6 +12280,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8b81a0577c8774418b435961c63e294, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  obj: {fileID: 0}
   GVRClick:
     m_PersistentCalls:
       m_Calls:
@@ -12244,7 +12297,7 @@ MonoBehaviour:
         m_CallState: 2
   totalTime: 2
   gvrTimer: 0
-  totalScore: 0
+  isDone: 0
 --- !u!114 &1354142790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13213,6 +13266,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8b81a0577c8774418b435961c63e294, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  obj: {fileID: 0}
   GVRClick:
     m_PersistentCalls:
       m_Calls:
@@ -13229,7 +13283,7 @@ MonoBehaviour:
         m_CallState: 2
   totalTime: 5
   gvrTimer: 0
-  totalScore: 0
+  isDone: 0
 --- !u!114 &1472944571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13925,6 +13979,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8b81a0577c8774418b435961c63e294, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  obj: {fileID: 0}
   GVRClick:
     m_PersistentCalls:
       m_Calls:
@@ -13941,7 +13996,7 @@ MonoBehaviour:
         m_CallState: 2
   totalTime: 2
   gvrTimer: 0
-  totalScore: 0
+  isDone: 0
 --- !u!1 &1508912945
 GameObject:
   m_ObjectHideFlags: 0
@@ -15601,6 +15656,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8b81a0577c8774418b435961c63e294, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  obj: {fileID: 0}
   GVRClick:
     m_PersistentCalls:
       m_Calls:
@@ -15617,7 +15673,7 @@ MonoBehaviour:
         m_CallState: 2
   totalTime: 2
   gvrTimer: 0
-  totalScore: 0
+  isDone: 0
 --- !u!114 &1732894738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18700,6 +18756,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8b81a0577c8774418b435961c63e294, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  obj: {fileID: 0}
   GVRClick:
     m_PersistentCalls:
       m_Calls:
@@ -18716,7 +18773,7 @@ MonoBehaviour:
         m_CallState: 2
   totalTime: 2
   gvrTimer: 0
-  totalScore: 0
+  isDone: 0
 --- !u!114 &2056740273
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19420,6 +19477,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8b81a0577c8774418b435961c63e294, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  obj: {fileID: 0}
   GVRClick:
     m_PersistentCalls:
       m_Calls:
@@ -19436,7 +19494,7 @@ MonoBehaviour:
         m_CallState: 2
   totalTime: 4
   gvrTimer: 0
-  totalScore: 0
+  isDone: 0
 --- !u!114 &2096138854
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -8,19 +8,20 @@ public class GVRButton : MonoBehaviour
 {
     // public Image imgCircle;
     public GameObject obj;
+    private GameManager manager;
     //public GameObject cat3;
     public UnityEvent GVRClick;
     public float totalTime;
     bool gvrStatus;
     public float gvrTimer;
-    // public float totalScore = 0;
-    // bool isDone = false;
+    // public int totalScore;  // 점수 합산
+    public int isDone = 0;
 
 
     // Start is called before the first frame update
     void Start()
     {
-       
+        manager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
     // Update is called once per frame
@@ -36,6 +37,7 @@ public class GVRButton : MonoBehaviour
         {
             GVRClick.Invoke();
             // cat.SetActive(false);
+            isDone += 1;
         }
     }
 
@@ -53,8 +55,10 @@ public class GVRButton : MonoBehaviour
     
     public void hit()
     {
-        // obj.SetActive(false);
-        // totalScore += 1;
-        Debug.Log("hit");
+        if (isDone == 1)
+        {
+            manager.totalScore += 1;
+            Debug.Log(manager.totalScore);
+        }
     }
 }
